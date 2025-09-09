@@ -105,6 +105,7 @@
                     }
 
                     mediaSegment = new MediaSegment(line);
+                    segments = new List<Segment>();
                 }
 
                 if (line.StartsWith(Tag.EXTINF))
